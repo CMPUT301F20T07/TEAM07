@@ -1,10 +1,9 @@
 package com.example.team07;
 
 public abstract class Shape {
-
     private int x;
     private int y;
-    private String color = "blue";
+    private String color = "lime green";
 
     public Shape(int x, int y) {
         this.x = x;
@@ -26,4 +25,5 @@ public abstract class Shape {
     public void setY(int y) {
         this.y = y;
     }
+
 }
